@@ -1,0 +1,320 @@
+
+.friend-messageList {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color:#F3F6FB;
+    overflow: hidden;
+
+}
+
+
+.friend-messageList-title {
+    height: 10%;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+
+}
+
+.friend-messageList-searchBox {
+    height: 10%;
+    overflow: auto;
+}
+
+.friend-messageList-searchBox input{
+
+    margin :1rem 0.8rem 0.4rem ;
+    height: 50%;
+    width: 80%;
+    border-radius: 2rem;
+    border: 0px;
+    box-shadow: 0 1px 5px lightgray;
+    text-indent: 2rem;
+    font-size: 1rem;
+    
+}
+.friend-messageList-searchBox input:focus{
+    outline: none;
+}
+.friend-messageList-friendList {
+    list-style: none;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.friend-messageList-friendList-unselectedListitem{
+
+    margin: 1rem;
+    height: 5rem;
+    width: 16rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    box-shadow: 0 1px 5px lightgray;
+
+
+    
+}
+.friend-messageList-friendList-unselectedListitem:hover{
+
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    
+}
+
+.friend-messageList-friendList-selectedListitem{
+    margin: 1rem;
+    height: 5rem;
+    width: 16rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 5px lightgray;
+    background-color: rgb(212, 212, 212);
+    
+}
+
+/**************联系人样式*******************/
+.friendListitem-head {
+    float: left;
+    height: 80%;
+    width: 25%;
+    margin: 0.5rem;
+}
+.friendListitem-head img{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    border-radius: 50%;
+}
+
+
+
+.friendListitem-middle {
+    float: left;
+    height: 100%;
+    width: 45%;
+
+
+}
+.friendListitem-middle-admin {
+    margin: 0.8rem 0rem 0.4rem;
+
+}
+.friendListitem-middle-message {
+    margin: 0.3rem 0;
+    color: gray;
+    font-size: 0.8rem;
+    
+}
+
+.friendListitem-tail{
+    height: 30%;
+    width: 20%;
+    float: left;
+}
+
+.friendListitem-tail-time {
+    margin: 0.8rem 0rem 0.4rem;
+
+    text-align: center;
+    color: lightgray;
+    font-size: 0.7rem;
+}
+.friendListitem-tail-bubble{
+    /* text-align: c; */
+    text-align: center;
+    margin: 0.4rem auto;
+    min-width: 1.4rem;
+    width: max-content;
+    height: 1.1rem;
+    font-size: 0.8rem;
+    background-color: rgb(57, 187, 57);
+    border-radius: 0.6rem;
+    color: white;
+}
+
+
+
+
+
+
+/**********************聊天框部分**************************/
+.friend-chatBox {
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: #F3F6FB;
+
+
+}
+
+.chatWindows {
+
+    margin: 2rem 1rem;
+    background-color: #FFFFFF;
+    height: 40rem;
+    width: 35rem;
+    border-radius: 2rem;
+    overflow:hidden;
+    box-shadow: 0 1px 8px lightgray;
+}
+.chatWindows-header {
+    box-shadow: 0 1px 5px lightgray;
+    height: 10%;
+}
+
+.chatWindows-header-headImg {
+
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+    float: left;
+    background-size: cover;
+    border-radius: 50%;
+}
+.chatWindows-header-admin {
+
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem 0.5rem 1rem;
+    float: left;
+    color: black;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.chatWindows-main {
+    height: 80%;
+    overflow: auto;
+}
+
+
+.chatWindows-main-messageLine{
+
+
+    overflow: auto;
+}
+.chatWindows-main-leftBubbleBox{
+
+    margin-top :0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    float: left;
+
+    /* height: 4rem; */
+    max-width: 10rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0 2px 2px lightgray;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.chatWindows-main-rightBubbleBox{
+
+    margin-top :0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    /* height: 4rem; */
+    max-width: 10rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: lightseagreen;
+    color: white;
+    box-shadow: 0 2px 2px lightgray;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    float: right;
+}
+
+
+
+.chatWindows-footer-input {
+
+    margin: 0.5rem 1rem;
+    width: 27rem;
+    height: 3rem;
+    border-radius: 3rem;
+    float: left;
+    border: 0px;
+    box-shadow: 1px 1px 10px lightgray;
+    font-size: 1rem;
+    text-indent: 1rem;
+}
+
+.chatWindows-footer-input:focus {
+    box-shadow: 1px 1px 10px gray;
+
+    outline: none;
+}
+.chatWindows-footer-input::placeholder {
+    color: lightgray;
+}
+.chatWindows-footer-push {
+
+    margin: 0.5rem 0rem;
+    width: 5rem;
+    height: 3rem;
+    border: 0px;
+    color:white;
+    border-radius: 3rem;
+    background-color: lightseagreen;
+    float: left;
+    box-shadow: 1px 1px 10px lightgray;
+
+}
+.chatWindows-footer-push:hover {
+
+
+    background-color: skyblue;
+    cursor: pointer;
+
+}
+
+/**********************聊天框部分**************************/
+
+.friend-introduce {
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-color:#F3F6FB;
+
+
+}
+.introduceWindows {
+    margin: 2rem 1rem;
+    background-color: #FFFFFF;
+    height: 40rem;
+    width: 18rem;
+    border-radius: 2rem;
+    overflow:hidden;
+    box-shadow: 0 1px 8px lightgray;
+
+
+}
+
+
+.introduceWindows-headImg {
+    margin: 2rem auto;
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    background-size: cover;
+
+
+}
+.introduceWindows-admin {
+    margin: 2rem auto;
+    text-align: center;
+
+
+}
+
+
+

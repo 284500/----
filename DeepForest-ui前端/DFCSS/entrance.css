@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.outer {
+    height: 100vh;
+
+    background:url('/Resource/DFbackground.png') center no-repeat;
+    background-size: cover;
+}
+.form-login {
+    margin: 20vh 34vw;
+    background-color: rgba(255, 255, 255,0.1);
+    width: 32vw;
+    float: left;
+    box-shadow: 1px 4px 20px black;
+    border-radius: 2rem;
+}
+.form-register {
+    margin: 10vh 30vw;
+    background-color: rgba(255, 255, 255,0.1);
+    width: 40vw;
+    float: left;
+    box-shadow: 1px 4px 20px black;
+    border-radius: 2rem;
+}
+.form-title {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+/*******************输入框样式**********************/
+.form-inputBox {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: auto;
+
+}
+.form-inputBox input{
+
+    height: 2.5rem;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+    text-indent: 0.5rem;
+
+}
+.form-inputBox input:focus {
+
+    outline: none;
+
+}
+
+/* 长条输入框 */
+.input-long{
+    width: 80%;    
+}
+/* 短条靠左输入框 */
+.input-short-left {
+    width: 30%;
+    float: left;
+    margin-left: 4vw;   
+}
+/* 短条靠右输入框 */
+.input-short-right {
+    width: 30%;
+    float: right;
+    margin-right: 4vw;
+
+}
+/******************按钮样式***********************/
+
+.form-buttonBox {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    overflow:auto;
+
+
+}
+.form-buttonBox input{
+    margin-left: 3.2vw;
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    border: 0px solid black;
+    background-color:lightseagreen;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.form-buttonBox input:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+/* 中等大小按钮 */
+.button-middle-left {
+    width: 30%;
+    margin-left: 3.2vw;
+    float: left;
+
+}
+.button-middle-right {
+    width: 30%;
+    margin-right: 3.2vw;
+    float: right;
+
+}
+/* 小按钮 */
+.button-short-left {
+    width: 20%;
+    margin-left: 3.2vw;
+    float: left;
+}
+.button-short-right {
+    width: 20%;
+    margin-right: 3.2vw;
+    float: right;
+}
+
+

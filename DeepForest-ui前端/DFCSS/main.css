@@ -1,0 +1,153 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*网页主题色*/
+.themecolor {
+    background-color: lightseagreen;
+}
+/*侧边栏颜色*/
+.siderbarcolor {
+    background-color: #262A33;
+    
+}
+
+
+/*网页头*/
+.header {
+    height: 8vh;
+}
+
+/*网页主体*/
+.main {
+    height: 92vh;
+}
+
+
+
+/*网页头部logo*/
+.header-logo{
+    margin-top: 5px;
+    width: 5%;
+    height: 80%;
+    float: left;
+}
+/*网页头部标题*/
+.header-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+}
+
+/*网页头部标题*/
+.header-user {
+    float: right;
+    padding-top: 0.8vh;
+    padding-left: 0.8vh;
+    height: 80%;
+    width: 10rem;
+}
+.header-user-admin {
+    float: left;
+    font-size: 1.3rem;
+    margin: 0.5rem 1rem;
+    color: white;
+
+}
+.header-user-img {
+    float: left;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin:  0.3rem 0rem;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+/*网页功能列表块*/
+.main-siderbar {
+    float: left;
+    background-color: #262A33;
+    width: 15%;
+    height: 100%;
+}
+/*网页功能列表标题*/
+.main-siderbar-title {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+
+}
+
+/*网页功能列表标题logo*/
+.main-siderbar-title-logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align:middle;
+    margin-right: 1rem;
+
+}
+/*网页功能列表*/
+.main-siderbar-list {
+    width:100% ;
+    list-style: none;
+
+}
+/*网页功能列表子元素*/
+.main-siderbar-list-unselectedlistitem{
+    color: lightgray;
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+    padding-left: 2rem;
+    padding-bottom: 0.4rem;
+    cursor: pointer;
+
+}
+.main-siderbar-list-selectedlistitem{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 0.4rem;
+    padding-left: 2rem;
+    padding-bottom: 0.4rem;
+    cursor: pointer;
+
+}
+
+/*网页功能列表子元素*/
+.main-siderbar-list-listitem-logo{
+    width: 1.9rem;
+    height: 1.9rem;
+    vertical-align:middle;
+    margin-right: 1rem;
+
+}
+
+/*鼠标移动到列表样式142538.006EFF*/
+.main-siderbar-list-unselectedlistitem:hover {
+    background-color: #142538;
+}
+
+
+
+.main-featurePage{
+    float: left;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    background-color:#F3F4F7;
+}
+
+
+
+

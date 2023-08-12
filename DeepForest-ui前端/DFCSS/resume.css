@@ -1,0 +1,89 @@
+
+/**********************个人信息头部样式*************************/
+.resume-header {
+    background-color:white;
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px  solid #DEDFE1;
+    box-sizing: border-box;
+
+}
+.resume-header-title {
+    color:black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+}
+
+
+/**********************主体样式*************************/
+
+.resume-main {
+    background-color:#F3F4F7;
+    height: 90%;
+    width: 100%;
+    overflow: scroll;
+    
+
+}
+
+
+
+/*****************组件样式********************/
+.inforForm {
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 65rem;
+    box-shadow: 0 1px 8px lightgray;
+
+    margin-bottom: 1rem;
+} 
+
+
+.inforForm-title {
+
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    font-weight: bold;
+
+}
+.inforForm-write {
+
+    height: 1rem;
+    width: 1rem;
+    float: right;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.inforForm-list {
+    padding: 0.2rem 1rem;
+    list-style: none;
+    overflow: auto;
+
+    /* display: inline-block;
+    width: 25rem; */
+}
+.inforForm-listitem {
+
+    width: 30rem;
+    padding: 0.2rem;
+    float: left;
+    overflow: auto;
+    /* display: inline-block; */
+
+}
+.inforForm-listitem span{
+
+    margin-right: 1rem;
+    /* display: inline-block; */
+
+}
+
+
+

@@ -1,0 +1,441 @@
+.modal-layer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* visibility: hidden; */
+    transform: scale(1.1);
+    transition: opacity 0.25s 0s, transform 0.25s;
+}
+
+
+/****************************************************/
+.inforModal {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+
+    width: 20rem;
+    height: 10rem;
+}
+
+
+.inforModal-title-box {
+    height: 20%;
+}
+
+.inforModal-title-box-title {
+    margin-left: 1rem;
+    text-align: center;
+    float: left;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+
+.inforModal-message-box {
+    height: 60%;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+.inforModal-button-box {
+    height: 20%;
+}
+
+
+.inforModal-message-box-message {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.inforModal-button-box-okButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: white;
+    border: 0px;
+    background-color:lightseagreen;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.inforModal-button-box-okButton:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.inforModal-button-box-quitButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: black;
+    border: 0px;
+    background-color:rgb(243, 243, 243);
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.inforModal-button-box-quitButton:hover {
+    background-color: rgb(194, 192, 192);
+
+    cursor: pointer;
+}
+
+
+
+
+
+/****************************************************/
+.editModal{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+
+    width: 25rem;
+    height: auto;
+
+}
+.editModal-title-box {
+    height: 2rem;
+
+}
+.editModal-title-box-title {
+    margin-left: 1rem;
+    text-align: center;
+    float: left;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+
+}
+
+
+.editModal-form-box {
+    overflow: auto;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.editModal-form-box-listitem {
+    width: 16rem;
+    padding: 0.2rem;
+    margin: 0.2rem 1rem;
+    float: left;
+    overflow: auto;
+}
+
+.editModal-form-box-listitem span{
+    padding: 0.2rem;
+}
+
+.editModal-form-box-listitem input{
+    width: 10rem;
+    padding: 0.2rem;
+    float: right;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 0.5rem;
+    text-indent: 0.5rem;
+}
+.editModal-form-box-listitem input:focus{
+    outline: none;
+}
+
+.editModal-button-box {
+    height: 2rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+
+
+
+.editModal-button-box-okButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: white;
+    border: 0px;
+    background-color:lightseagreen;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.editModal-button-box-okButton:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+.editModal-button-box-quitButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: black;
+    border: 0px;
+    background-color:rgb(243, 243, 243);
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.editModal-button-box-quitButton:hover {
+    background-color: rgb(194, 192, 192);
+    cursor: pointer;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+/****************************************************/
+.contentModal{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+
+    width: 60rem;
+    height: auto;
+
+}
+.contentModal-title-box {
+    margin: 1rem auto;
+    height: 10rem;
+
+}
+
+.contentModal-title-img{
+    margin: 1rem 0.5rem 1rem 1rem;
+
+    height: 8rem;
+    min-width: 10rem;
+    background-size: cover;
+    float: left;
+}
+
+.contentModal-title-content {
+
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    height: 8rem;
+    
+    width: 40rem;
+    float: left;
+
+}
+.contentModal-title-content-title {
+
+    margin: 1rem 0.5rem 1rem 0.5rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+}
+.contentModal-title-content-subtitle {
+
+    margin: 1rem 0.5rem 1rem 0.5rem;
+
+ 
+
+}
+
+.contentModal-content-box {
+    overflow: auto;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+
+
+.contentModal-button-box {
+    height: 2rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+
+
+
+.contentModal-button-box-leaveButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: black;
+    border: 0px;
+    background-color:lightseagreen;
+
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.contentModal-button-box-leaveButton:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+/*******************************************************/
+
+.addModal{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 1rem;
+
+    width: 20rem;
+    height: auto;
+
+}
+.addModal-title-box {
+    height: 2rem;
+
+}
+.addModal-title-box-title {
+    margin-left: 1rem;
+    text-align: center;
+    float: left;
+    height: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+
+}
+
+
+.addModal-form-box {
+    overflow: auto;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.addModal-form-box-listitem {
+    width: 18rem;
+    padding: 0.2rem;
+    margin: 0.2rem 1rem;
+    float: left;
+    overflow: auto;
+}
+
+.addModal-form-box-listitem span{
+    padding: 0.2rem;
+    
+}
+
+.addModal-form-box-listitem input{
+    width: 10rem;
+    padding: 0.2rem;
+    float: right;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 0.5rem;
+    text-indent: 0.5rem;
+
+}
+.addModal-form-box-listitem input:focus{
+    outline: none;
+}
+
+.addModal-form-box-listitem textarea{
+    width: 10rem;
+    height: 8rem;
+    padding: 0.2rem;
+    float: right;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 0.5rem;
+    text-indent: 0.5rem;
+    resize: none;
+    
+    font-family:"微软雅黑";
+}
+.addModal-form-box-listitem textarea:focus{
+    outline: none;
+}
+
+.addModal-form-box-listitem select{
+    width: 5rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    margin-right: 5.5rem;
+    float: right;
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 0.5rem;
+}
+.addModal-form-box-listitem select:focus{
+    outline: none;
+}
+
+
+.addModal-button-box {
+    height: 2rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+
+
+
+.addModal-button-box-submitButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: white;
+    border: 0px;
+    background-color:lightseagreen;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.addModal-button-box-submitButton:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+.addModal-button-box-quitButton {
+    margin-right: 1rem;
+    float: right;
+    height: 80%;
+    width: 20%;
+    color: black;
+    border: 0px;
+    background-color:rgb(243, 243, 243);
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    /* border-bottom: 1px solid lightgray; */
+
+}
+
+.addModal-button-box-quitButton:hover {
+    background-color: rgb(194, 192, 192);
+    cursor: pointer;
+    /* border-bottom: 1px solid lightgray; */
+
+}
